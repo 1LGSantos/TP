@@ -3,7 +3,7 @@
 
 #define TAM 1000
 
-// Verifica se a e b sao anagramas (iterativo), comparando as frequencias de cada letra
+// Verifica se a e b sao anagramas, comparando as frequencias de cada letra em cada um
 int saoAnagramas(char a[], char b[]) {
     int freq[26] = {0};
     int i = 0;
