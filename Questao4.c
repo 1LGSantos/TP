@@ -3,7 +3,7 @@
 
 #define TAM 1000
 
-// Inverte a string s (iterativo) e escreve o resultado em resp
+// Inverte a string e escreve o resultado em resp
 void inverterString(char s[], char resp[]) {
     int tamanho = 0;
     while (s[tamanho] != '\0') {
