@@ -3,7 +3,7 @@
 
 #define TAM 1000
 
-// Soma iterativamente os digitos de um numero inteiro (ignora o sinal)
+// Soma iterativamente os digitos de um numero inteir, ignorando os sinais
 int somaDigitos(int n) {
     if (n < 0) {
         n = -n;
@@ -19,7 +19,7 @@ int somaDigitos(int n) {
 int main(void) {
     char linha[TAM];
     while (fgets(linha, TAM, stdin) != NULL) {
-        int n = atoi(linha); // linha vazia ou nao numerica vira 0
+        int n = atoi(linha); // linha vazia ou nao numerica vai virar 0
         printf("%d\n", somaDigitos(n));
     }
     return 0;
