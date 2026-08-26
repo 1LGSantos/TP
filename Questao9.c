@@ -3,7 +3,7 @@
 
 #define TAM 1000
 
-// Cifra recursivamente a partir da posicao i (sem lacos, sem variaveis globais)
+// Cifra recursivamente a partir da posicao i 
 void cifrarCesarRec(char s[], char resp[], int i) {
     if (s[i] == '\0') {
         resp[i] = '\0';
@@ -20,7 +20,7 @@ void cifrarCesarRec(char s[], char resp[], int i) {
     }
 }
 
-// Metodo inicializador que chama a versao recursiva a partir da posicao 0
+// Metodo inicializador que chama a versao recursiva a partir da posicao inicial 0
 void cifrarCesar(char s[], char resp[]) {
     cifrarCesarRec(s, resp, 0);
 }
