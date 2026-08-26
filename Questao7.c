@@ -3,7 +3,7 @@
 
 #define TAM 1000
 
-// Calcula (iterativamente, com janela deslizante) o comprimento da maior substring sem repeticao
+// Calcula o comprimento da maior substring sem repeticao
 int maiorSubstringSemRepeticao(char s[]) {
     int ultimaPosicao[256];
     int i;
